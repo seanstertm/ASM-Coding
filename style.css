@@ -1,0 +1,38 @@
+.title{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+.paragraph1{
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: #CC96FF;
+}
+.paragraph2{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.leftColumn{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    float: left;
+    text-align: center;
+    width: 48%;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: rgb(127, 208, 255);
+    color: rgb(192, 66, 66);
+}
+.rightColumn{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    color: rgb(127, 208, 255);
+    background-color: rgb(192, 66, 66);
+}
