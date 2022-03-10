@@ -2,6 +2,7 @@
     color: blueviolet;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 100px;
+<<<<<<< HEAD
     text-align: center;
 }
 .paragraph1{
@@ -35,4 +36,6 @@
     padding: 10px;
     color: rgb(127, 208, 255);
     background-color: rgb(192, 66, 66);
+=======
+>>>>>>> ec4512407d2fbe86312de866d71d9d831eae66d7
 }
