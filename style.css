@@ -12,12 +12,12 @@ html{
 body {
     padding: 0px;
     margin: 0px;
-    height: 97.5%;
+    height: 100%;
     width: 100%;
 }
 .title-container{
     height: 20%;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
 }
 .title{
@@ -26,11 +26,10 @@ body {
     font-size: 13.5vh;
     border-style: solid;
     border-color: #7536af;
-    border-width: 5px;
+    border-width: 0;
     border-left-width: 25px;
     text-align: center;
     background: linear-gradient(90deg, rgba(215,163,222,1) 0%, rgba(161,119,218,1) 100%);
-    margin: 1%;
     padding: .1%;
     white-space: nowrap;
 }
@@ -46,6 +45,7 @@ img{
     height: 100%;
     margin: 0%;
     padding: 0%;
+    vertical-align: bottom;
 }
 .bar{
     width: 10%;
@@ -62,6 +62,8 @@ img{
     align-items: center;
     border: rgb(0, 0, 0) solid 5px;
     border-radius: 5px;
+    padding: 0;
+    margin: 0;
 }
 .game-icon:hover{
     border: rgb(161, 161, 161) solid 5px;
