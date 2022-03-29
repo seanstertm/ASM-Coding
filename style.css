@@ -12,7 +12,7 @@ html{
 body {
     padding: 0px;
     margin: 0px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .title-container{
@@ -46,6 +46,7 @@ img{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    vertical-align: bottom;
 }
 .bar{
     width: 10%;
