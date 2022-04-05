@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "name name name name name"
+    "rating media1 media1 text1 text1"
+    "rating media1 media1 media2 media2"
+    "rating text2 text2 media2 media2";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10% 30% 30% 30%;
+    width: 100vw;
+    height: 100vh;
+}
