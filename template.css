@@ -7,6 +7,10 @@ body{
     height: 100%;
     width: 100%;
 }
+img{
+    width: auto;
+    height: 100%;
+}
 .grid{
     display: grid;
     grid-template-areas: 
@@ -14,8 +18,73 @@ body{
     "rating media1 media1 text1 text1"
     "rating media1 media1 media2 media2"
     "rating text2 text2 media2 media2";
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 10% 20% 25% 25% 20%;
     grid-template-rows: 10% 30% 30% 30%;
     width: 100vw;
     height: 100vh;
+}
+.name{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    border: 5px white solid;
+    border-radius: 10px;
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+}
+.back-arrow{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-items: center;
+}
+.title{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    color: white;
+    font-size: 5.2vh;
+    font-family: 'Roboto Mono', monospace;
+}
+.rating{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border: 5px white solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 10% 3% 10% 77%;
+}
+.rating-text-top{
+    color: rgb(52, 151, 52);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 6vh;
+    text-align: center;
+}
+.rating-bar{
+    border: 5px solid rgb(52, 151, 52);
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(52, 151, 52);
+}
+.rating-text-bot{
+    color: rgb(52, 151, 52);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 6vh;
+    text-align: center;
+}
+.rating-desc{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 50%;
 }

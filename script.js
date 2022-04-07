@@ -1,17 +1,36 @@
 var hundrethseconds = 0;
 var hundrethsecond = setInterval(increment, 10)
 
+var elements = {
+    elements: [
+        {id: 'isaac', height: 90}, 
+        {id: 'celeste', height: 85},
+        {id: 'hk', height: 80},
+        {id: 'deadCells', height: 70},
+        {id: 'revita', height: 65},
+        {id: 'etg', height: 65},
+        {id: 'sts', height: 60},
+        {id: 'cuphead', height: 55},
+        {id: 'stardewValley', height: 45},
+        {id: 'ror2', height: 35}
+    ]
+}
+
 function display() {
-    var isaac = document.getElementById("isaac")
+    for(let step = 0; step < 10; step++) {
+        elements.elements[step].id = document.getElementById(elements.elements[step].id)
+    }
 }
 
 function increment() {
     hundrethseconds++;
-    if(hundrethseconds >= 200) {
+    if(hundrethseconds >= 10000) {
         clearInterval(hundrethsecond)
     }
-
-    if(hundrethseconds < (90 - 25)) {
-        isaac.style.height = `${25 + hundrethseconds}%`
+    
+    for(let step = 0; step < 10; step++) {
+        if(elements.elements[step].id.style.height < `${elements.elements[step].height}%`) {
+            elements.elements[step].id.style.height = `${25 + Math.log(hundrethseconds)* elements.elements[step].height/6.5}%`
+        }
     }
 }

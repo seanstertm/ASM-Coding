@@ -64,6 +64,6 @@ img{
     align-items: center;
 }
 .game-icon:hover{
-    border: rgb(161, 161, 161) solid 5px;
+    border: black solid 5px;
     border-radius: 5px;
 }
