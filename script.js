@@ -11,7 +11,7 @@ var elements = {
         {id: 'etg', height: 65},
         {id: 'sts', height: 60},
         {id: 'cuphead', height: 55},
-        {id: 'stardewValley', height: 45},
+        {id: 'portal', height: 45},
         {id: 'ror2', height: 35}
     ]
 }
