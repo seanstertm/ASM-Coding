@@ -127,7 +127,8 @@ img{
 }
 .media2 img{
     width: 100%;
-    height: fit-content;
+    height: 100%;
+    object-fit: cover;
 }
 .text2{
     grid-column-start: 2;
